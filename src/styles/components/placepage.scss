@@ -1,0 +1,107 @@
+.placePage__wrap {
+  position: fixed;
+  width: 100%;
+  height: calc(100% - 6.4rem);
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow: scroll;
+}
+
+.placePage_header {
+  height: 6.4rem;
+  display: flex;
+  justify-content: left;
+}
+
+.placePage_header__goBack {
+  height: 4.8rem;
+  margin: 0.8rem;
+}
+
+.placePage_header__name {
+  line-height: 6.4rem;
+  font-size: 2.4rem;
+  margin-left: 1.6rem;
+}
+
+.placePage_topInfo {
+  border-top: 0.6rem solid #eee;
+  padding: 2.4rem;
+  padding-bottom: 4.8rem;
+  border-bottom: 1.6em solid #eee;
+}
+
+.placePage__img {
+  width: 100%;
+  border-radius: 1.6rem;
+}
+
+.placePage__name {
+  margin-top: 2.4rem;
+  line-height: 6.4rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.placePage__counters {
+  margin-top: 1.2rem;
+  color: grey;
+}
+
+.placePage__tags {
+  margin-top: 2.4rem;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.placePage__tag {
+  color: rgb(231, 38, 173);
+  border: 0.1rem solid rgb(231, 38, 173);
+  padding: 0.8rem 1.2rem;
+  border-radius: 2.4rem;
+  white-space: nowrap;
+  font-weight: bold;
+  margin: 0 0.4rem 1.2rem 0;
+}
+
+.placePage__point {
+  margin-top: 2.4rem;
+  display: flex;
+  justify-content: left;
+}
+
+.placePage__point__icon {
+  width: 1.6rem;
+  margin: 0 1.6rem;
+}
+
+.placePage_boxs {
+  border-bottom: 1.6em solid #eee;
+}
+
+.placePage__subtitle {
+  margin: 3.2rem;
+  font-size: 2rem;
+}
+
+.placePage__basicInfo {
+  display: flex;
+  justify-content: left;
+  height: 3.2rem;
+  margin: 3.2rem;
+}
+
+.placePage__basicInfo > img {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: 0.4rem;
+}
+
+.placePage__basicInfo > p {
+  line-height: 3.2rem;
+  color: #333;
+  margin-left: 2.4rem;
+}

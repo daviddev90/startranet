@@ -1,0 +1,61 @@
+.placebox {
+  display: flex;
+  justify-content: left;
+  margin: 4.8rem 2.4rem;
+  padding: 1.2rem;
+  border: 2px solid grey;
+  width: 102rem;
+}
+.placebox__section {
+  margin-left: 2.4rem;
+}
+
+.placebox__liner {
+  display: flex;
+  justify-content: left;
+  height: 3.2rem;
+}
+
+.placebox__liner p {
+  font-size: 1.2rem;
+  line-height: 3.2rem;
+  width: 6.4rem;
+  text-align: center;
+}
+
+.placebox__liner input {
+  width: 32rem;
+  font-size: 1.4rem;
+  border: 1px solid #999;
+  height: 2.4rem;
+  margin: 0.3rem;
+}
+
+.placebox__liner button {
+  margin: 0 0.8rem;
+}
+
+@media (max-width: 45rem) {
+  .placebox {
+    width: 38rem;
+    display: block;
+    box-sizing: border-box;
+    margin: 1.2rem auto;
+  }
+
+  .placebox__liner p {
+    font-size: 1rem;
+    width: 5.6rem;
+  }
+
+  .placebox__liner input {
+    width: 26rem;
+    font-size: 1.4rem;
+    border: 1px solid #999;
+    height: 2.4rem;
+    margin: 0.3rem;
+  }
+  .placebox__section {
+    margin: 0;
+  }
+}

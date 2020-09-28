@@ -1,0 +1,11 @@
+.placeBoxs {
+  padding: 0.8rem 0 6.4rem 0;
+  margin-top: 4rem;
+  border-top: 0.8rem solid #eee;
+}
+
+@media (max-width: 45rem) {
+  .placeboxs {
+    width: 100%;
+  }
+}

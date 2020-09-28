@@ -1,0 +1,90 @@
+.selectFilter__openOptions {
+  display: inline-flex;
+  justify-content: left;
+  height: 2.4rem;
+  border: 0.1rem solid $hl_pink;
+  padding: 0 0.8rem;
+  border-radius: 2.4rem;
+  margin-left: 0.4rem;
+
+  p {
+    line-height: 2.4rem;
+    font-size: 1.2rem;
+  }
+
+  img {
+    height: 1.8rem;
+    width: 1.8rem;
+    margin: 0.2rem;
+  }
+}
+
+.selectFilter__options {
+  position: fixed;
+  bottom: -50vh;
+  width: 100%;
+  max-height: 50%;
+  z-index: 2;
+  background-color: white;
+  overflow: scroll;
+  padding: 2.4rem;
+  box-sizing: border-box;
+  // transform: translateY(-50vh);
+  transition: all 0.3s ease-in-out;
+}
+.selectFilter__options.opened {
+  transform: translateY(-50vh);
+}
+
+.selectFilter__option {
+  display: block;
+  width: 100%;
+  position: relative;
+  padding-left: 4.8rem;
+  height: 3.2rem;
+  line-height: 3.2rem;
+  font-size: 1.6rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.selectFilter__option input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.selectFilter__customButton {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  height: 1.6rem;
+  width: 1.6rem;
+  border: 0.2rem solid grey;
+  border-radius: 50%;
+}
+
+.selectFilter__option input:checked ~ .selectFilter__customButton {
+  border: 0.2rem solid $hl_pink;
+}
+
+.selectFilter__customButton:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.selectFilter__option input:checked ~ .selectFilter__customButton:after {
+  display: block;
+}
+
+.selectFilter__option .selectFilter__customButton:after {
+  top: 0.3rem;
+  left: 0.3rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: rgb(231, 38, 173);
+}

@@ -1,0 +1,31 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  margin: $m-size;
+}
+.logo__txt{
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: $m-size;
+  width: 0;
+  height: 0;
+  margin:0;
+}
+.logo__img{
+  height: 2.4rem;
+}
+
+.searchIcon{
+  width: 3.6rem;
+  height: 3.6rem;
+  margin: $m-size
+}
+
+.searchIcon__img{
+  width: 3.6rem;
+  height: 3.6rem;
+}

@@ -1,0 +1,67 @@
+.cupholderCard {
+  display: flex;
+  justify-content: left;
+  margin-top: 1.2rem;
+  border: 1px solid #eee;
+  border-radius: 1.2rem;
+}
+.cupholderCard__img {
+  width: 14.8rem;
+  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+}
+.cupholderCard__contents {
+  overflow: hidden;
+  padding: 1.2rem;
+  color: black;
+}
+.cupholderCard__name {
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.cupholderCard__description {
+  font-size: 1.2rem;
+  color: rgb(10, 10, 10);
+  margin-top: 0.8rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.cupholderCard__address {
+  font-size: 1.1rem;
+  color: gray;
+  margin-top: 0.6rem;
+  margin-bottom: 0.8rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.cupholderCard__specialLine {
+  display: flex;
+  justify-content: left;
+}
+
+.cupholderCard__specialLine__smallTitle {
+  font-size: 0.6rem;
+  padding: 0.3rem;
+  border: 0.1rem solid $hl_pink;
+  color: $hl_pink;
+  text-align: center;
+  width: 2.4rem;
+  height: 0.8rem;
+  border-radius: 1.2rem;
+  margin: 0 0.8rem 0.4rem 0;
+}
+.cupholderCard__specialLine__text {
+  line-height: 1.6rem;
+  font-size: 1rem;
+}
+.cupholderCard__pin {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
